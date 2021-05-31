@@ -1,0 +1,109 @@
+table{
+    border: 3px solid black;
+    margin: auto;
+    border-spacing: 1px;
+}
+
+#szachy{
+    width: 80vh;
+    height: 80vh;
+}
+
+
+#szachy tr td.black, #szachy tr td.white{
+    width: 11.5%;
+    height: 11.5%;
+}
+#szachy th{
+    text-align: center;
+    background-color: rgb(214, 74, 74);
+    
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.white{
+    background-color: rgb(201, 202, 154);
+}
+
+.black{
+    background-color: rgb(0, 87, 79);
+}
+
+.corner {
+    background-color: black;
+}
+
+.red{
+    background-color:red;
+}
+
+.highlight {
+    background: rebeccapurple;
+    color: rebeccapurple;
+  }
+
+  @media screen and (max-width: 400px){
+    #szachy{
+        width: 100vh;
+        height: 100vh;
+    }
+    
+    
+    #szachy tr td.black, #szachy tr td.white{
+        width: 10vh;
+        height: 10vh;
+    }
+
+    #szachy tr td.black img, #szachy tr td.white img{
+        width: 10vh;
+        height: 10vh;
+    }
+
+  }
+
+  @media screen and (max-width: 600px){
+    #szachy{
+        width: 100vh;
+        height: 100vh;
+    }
+    
+    
+    #szachy tr td.black, #szachy tr td.white{
+        width: 10vh;
+        height: 10vh;
+    }
+
+    #szachy tr td.black img, #szachy tr td.white img{
+        width: 9vh;
+        height: 9vh;
+    }
+
+  }
+
+  @media screen and (max-width: 980px){
+    #szachy{
+        width: 100vh;
+        height: 100vh;
+    }
+    
+    
+    #szachy tr td.black, #szachy tr td.white{
+        width: 10vh;
+        height: 10vh;
+    }
+
+    #szachy tr td.black img, #szachy tr td.white img{
+        width: 9vh;
+        height: 9vh;
+    }
+
+  }
